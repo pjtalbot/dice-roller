@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <title>GroupChat</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<ul id="messages"></ul>
+
+<form id="dice-form">
+  <input type="number" class="d" id="d20" name="d20" placeholder="D20">
+  <input type="number" class="d" id="d4" name="d4" placeholder="D4">
+  <input type="number" class="d" id="d6" name="d6" placeholder="D6">
+  <input type="number" class="d" id="d8" name="d8" placeholder="D6">
+  <input type="number" class="d" id="d10" name="d10" placeholder="D10">
+  <input type="number" class="d" id="d12" name="d12" placeholder="D12">
+  <input type="number" class="d" id="d100" name="d100" placeholder="D100">
+  <button>Roll</button>
+</form>
+
+<!-- <form id="msg-form">
+  <input id="m" autocomplete="off" placeholder="Message"/>
+  <button>Send</button>
+</form> -->
+
+<script src="https://unpkg.com/jquery"></script>
+
+<script src="/js/chat.js" type="module"></script>
+<script src="/js/roll.js" type="module"></script>
+
+</body>
+</html>
