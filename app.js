@@ -71,4 +71,8 @@ app.get('/:roomName', function(req, res, next) {
 	res.sendFile(`${__dirname}/chat.html`);
 });
 
+app.get('/register', (req, res) => {
+	res.sendFile(`${__dirname}/register.html`);
+});
+
 module.exports = app;

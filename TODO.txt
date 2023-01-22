@@ -1,0 +1,8 @@
+nodemon
+https://www.youtube.com/watch?v=Ud5xKCYQTjM
+npm i --save -dev nodemon
+
+User Authentication:
+npm i express
+npm i bcrypt
+

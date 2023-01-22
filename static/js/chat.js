@@ -1,6 +1,7 @@
 /** Client-side of groupchat. */
 
 const urlParts = document.URL.split('/');
+console.log(urlParts);
 const roomName = urlParts[urlParts.length - 1];
 const ws = new WebSocket(`ws://localhost:3000/chat/${roomName}`);
 // import { rollDice, rollDie } from '/roll';
